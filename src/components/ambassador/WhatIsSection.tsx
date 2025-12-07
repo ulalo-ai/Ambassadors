@@ -2,7 +2,7 @@ import networkNodeImg from "../../assets/Container.png";
 
 export const WhatIsSection = () => {
   return (
-    <section className="w-full py-20 md:py-32 bg-white">
+    <section id="what-is" className="w-full py-20 md:py-32 bg-white">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 max-w-[1400px]">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">

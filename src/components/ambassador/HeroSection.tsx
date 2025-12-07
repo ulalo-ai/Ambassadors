@@ -29,7 +29,7 @@ export const HeroSection = () => {
                 {/* Icon placeholder */}
                 Apply to Become an Ambassador
               </Button>
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10 hover:text-white h-[49px] px-8 text-[16px] bg-transparent rounded-[4px] font-sans border-[0.67px]">
+              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10 hover:text-white h-[49px] px-8 text-[16px] bg-transparent rounded-[4px] font-sans border-[0.67px]" onClick={() => document.getElementById('what-is')?.scrollIntoView({ behavior: 'smooth' })}>
                 {/* Icon placeholder */}
                 Learn More
               </Button>
