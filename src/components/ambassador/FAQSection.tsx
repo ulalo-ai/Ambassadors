@@ -8,9 +8,9 @@ import {
 
 export const FAQSection = () => {
   return (
-    <section className="w-full py-20 lg:py-32 bg-white">
+    <section id="faq" className="w-full py-20 lg:py-32 bg-white">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 max-w-[900px]">
-        
+
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-medium text-primary mb-6">
             Frequently Asked Questions

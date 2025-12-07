@@ -4,9 +4,9 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const SupportSection = () => {
   return (
-    <section className="w-full py-20 lg:py-32 bg-white">
+    <section id="benefits" className="w-full py-20 lg:py-32 bg-white">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 max-w-[1400px]">
-        
+
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-medium text-primary mb-6">
             Tools and Support You Get
@@ -17,22 +17,22 @@ export const SupportSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <SupportCard 
+          <SupportCard
             icon={<GraduationCap className="w-6 h-6 text-white" />}
             title="Exclusive Training Portal"
             description="Access in-depth courses, webinars, and certification programs to become an expert on Ulalo and health data ownership."
           />
-          <SupportCard 
+          <SupportCard
             icon={<Megaphone className="w-6 h-6 text-white" />}
             title="Marketing & Outreach Kit"
             description="Utilize pre-made content, templates, and social media graphics. Access our brand guidelines and promotional materials."
           />
-          <SupportCard 
+          <SupportCard
             icon={<Headphones className="w-6 h-6 text-white" />}
             title="Dedicated Support Team"
             description="Work directly with our ambassador coordination team. Get help with questions, event planning, and technical support."
           />
-          <SupportCard 
+          <SupportCard
             icon={<Zap className="w-6 h-6 text-white" />}
             title="Beta Platform Access"
             description="Be the first to experience new features and updates. Provide exclusive feedback to help shape the future of Ulalo."

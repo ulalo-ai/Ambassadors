@@ -4,9 +4,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const TiersSection = () => {
   return (
-    <section className="w-full py-20 lg:py-32 bg-gray-50">
+    <section id="rewards" className="w-full py-20 lg:py-32 bg-gray-50">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 max-w-[1400px]">
-        
+
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-medium text-primary mb-6">
             Rewards, Tiers, and Growth
@@ -17,9 +17,9 @@ export const TiersSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          <TierCard 
-            name="Bronze" 
-            color="bg-[#bb4d00]" 
+          <TierCard
+            name="Bronze"
+            color="bg-[#bb4d00]"
             items={[
               "Exclusive training resources",
               "Ambassador numbering",
@@ -27,9 +27,9 @@ export const TiersSection = () => {
               "Recognition"
             ]}
           />
-          <TierCard 
-            name="Silver" 
-            color="bg-[#99a1af]" 
+          <TierCard
+            name="Silver"
+            color="bg-[#99a1af]"
             items={[
               "All Bronze benefits",
               "Priority support",
@@ -37,9 +37,9 @@ export const TiersSection = () => {
               "Event invitations"
             ]}
           />
-          <TierCard 
-            name="Gold" 
-            color="bg-[#dac642]" 
+          <TierCard
+            name="Gold"
+            color="bg-[#dac642]"
             items={[
               "All Silver benefits",
               "Revenue sharing",
@@ -48,9 +48,9 @@ export const TiersSection = () => {
               "Premium swag"
             ]}
           />
-          <TierCard 
-            name="Platinum" 
-            color="bg-[#c27aff]" 
+          <TierCard
+            name="Platinum"
+            color="bg-[#c27aff]"
             items={[
               "All Gold benefits",
               "Partnership development",
